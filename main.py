@@ -158,7 +158,7 @@ def start():
 
   paginas = []
 
-  for numeroDaPagina in range(2, 5, 1):    
+  for numeroDaPagina in range(2, 51, 1):    
     paginas.append(criaPagina(numeroDaPagina))
 
   pagina.save('cartao.pdf', 'pdf', save_all = True, append_images = paginas)
